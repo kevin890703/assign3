@@ -26,7 +26,7 @@ void setup () {
   fighterY = floor(random(120,360));
   hp_ = 20;
   c=0;
-  enemyY = floor(random(100,380));
+  enemyY = floor(random(50,430));
 }
 void draw() {
   switch(state){
@@ -116,7 +116,7 @@ void draw() {
         //enemyY += 0.02*(fighterY-enemyY+25);
         if(enemyX>910){
           c=0;
-          enemyY = floor(random(100,380));
+          enemyY = floor(random(50,430));
         }
       }
     break;
